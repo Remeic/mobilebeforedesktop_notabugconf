@@ -12,7 +12,7 @@ body{
 }
 
 .sidebar{
-    
+    padding: 3rem;
     @media(min-width: 1200px){
         flex-basis: 25%;
         height: 90vh;
@@ -28,6 +28,7 @@ body{
 }
 
 .content{
+    padding: 3rem;
     background-image: url("https://media.giphy.com/media/cSc63570q5iJq/giphy.gif");
     color: gainsboro;
     @media(min-width: 1200px){

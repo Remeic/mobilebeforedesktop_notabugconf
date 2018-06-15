@@ -15,6 +15,7 @@ body{
 .sidebar{
   height: 90vh;
   flex-basis: 100%;
+  padding: 3rem;
   @media(min-width: 640px){
       flex-basis: 100%;
   }
@@ -29,6 +30,7 @@ body{
 }
 
 .content{
+  padding: 3rem;
   background-image: url("https://media.giphy.com/media/cSc63570q5iJq/giphy.gif");
   flex-basis: 50%;
   @media(min-width: 640px){

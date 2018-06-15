@@ -1,3 +1,4 @@
 /** Import here yours css file here */
 /** @import './desktop_first.css'; */
+@import './reset.css';
 @import './mobile_first.css';
