@@ -1,0 +1,54 @@
+/** Import here yours css file here */
+/** @import './desktop_first.css'; */
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 4em;
+}
+
+.body {
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sidebar {
+        -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+        height: 90vh;
+    }
+}
+
+.sidebar--jd {
+    background-image: url("https://media.giphy.com/media/3o7TKDzLLKjIOVbPbi/giphy.gif");
+}
+
+.sidebar--turk {
+    background-image: url("https://media.giphy.com/media/WGGfmw4aWKkw0/giphy.gif");
+}
+
+.content {
+    background-image: url("https://media.giphy.com/media/cSc63570q5iJq/giphy.gif");
+    color: gainsboro;
+}
+
+@media (min-width: 1200px) {
+    .content {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+}
+
+.background--gif {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*# sourceMappingURL=styles.css.map */
